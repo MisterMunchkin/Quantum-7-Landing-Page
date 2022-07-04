@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Scriptorama Tradeshow JF';
+    src: url('ScriptoramaTradeshowJF.eot');
+    src: url('ScriptoramaTradeshowJF.eot?#iefix') format('embedded-opentype'),
+        url('ScriptoramaTradeshowJF.woff2') format('woff2'),
+        url('ScriptoramaTradeshowJF.woff') format('woff'),
+        url('ScriptoramaTradeshowJF.ttf') format('truetype'),
+        url('ScriptoramaTradeshowJF.svg#ScriptoramaTradeshowJF') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
