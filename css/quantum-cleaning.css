@@ -18,3 +18,8 @@ h1, h2 {
     font-family: 'Scriptorama Tradeshow JF';
     font-weight: normal;
 }
+
+.multicolumn-icon {
+    height: 25vh;
+    padding: 40px;
+}
