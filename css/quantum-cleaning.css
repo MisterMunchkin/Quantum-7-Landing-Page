@@ -23,3 +23,7 @@ h1, h2 {
     height: 25vh;
     padding: 40px;
 }
+
+.no-wrap {
+    white-space: nowrap;
+}
