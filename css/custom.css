@@ -44,6 +44,16 @@ button {
     background: #00e69c;
 }
 
+.cta-brown {
+    background: #422926;
+    color: #F29FC4;
+}
+
+.cta-brown:hover {
+    background: #F29FC4;
+    color: #422926;
+}
+
 .cta-blue {
     background: #192440;
     color: #ffffff;
@@ -118,19 +128,19 @@ button {
 }
 
 #contact form {
-    color: #00FFAD;
+    color: #422926;
 }
 
 #contact form input,
 #contact form textarea {
     background: transparent;
-    border: 1px solid #00FFAD;
-    color: #ffffff;
+    border: 1px solid #422926;
+    color: #422926;
 }
 
 /********** copyright **********/
 #copyright {
-    background: #192440;
+    background: #026A89;
     padding: 2rem 3rem;
 }
 
@@ -138,22 +148,22 @@ button {
     width: 40px;
     height: 40px;
     border-radius: 99%;
-    background: #ffffff;
+    background: #422926;
     transition: .4s ease;
 }
 
 #copyright #social-media a i {
-    color: #192440;
+    color: #F29FC4;
     font-size: 1.2rem;
     line-height: 40px;
 }
 
 #copyright #social-media a:hover {
-    background: #00FFAD;
+    background: #F29FC4;
 }
 
 #copyright #social-media a:hover i {
-    color: #ffffff;
+    color: #422926;
 }
 
 /********** RWD **********/

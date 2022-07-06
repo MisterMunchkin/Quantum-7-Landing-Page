@@ -123,6 +123,50 @@ section {
     fill: #F29FC4;
 }
 
+/* Contact us section */
+.custom-shape-divider-top-1657101104 {
+    position: absolute;
+    top: -10;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1657101104 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 68px;
+}
+
+.custom-shape-divider-top-1657101104 .shape-fill {
+    fill: #ECECDD;
+}
+
+/* Copyright */
+.custom-shape-divider-bottom-1657101488 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1657101488 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 31px;
+}
+
+.custom-shape-divider-bottom-1657101488 .shape-fill {
+    fill: #026A89;
+}
+/* End of wave sections */
+
 .scriptorama-font {
     font-family: 'Scriptorama Tradeshow JF';
     font-weight: normal;
@@ -151,6 +195,26 @@ section {
 }
 
 /* Desktop Devices */
+@media screen
+    and (max-device-width: 1200px) {
+
+    .no-webp .hero-background {
+        background-image: url(/quantum-cleaning-assets/img/hero/hero-full-image-x1.jpeg);
+    }
+
+    .webp .hero-background {
+        background-image: url(/quantum-cleaning-assets/img/hero/webp/hero-full-image-x1.webp);
+    }
+
+    .no-webp .hero-banner {
+        background-image: url(/quantum-cleaning-assets/img/hero-banner/hero-banner-image-x1.jpg);
+    }
+
+    .webp .hero-banner {
+        background-image: url(/quantum-cleaning-assets/img/hero-banner/webp/hero-banner-image-x1.webp);
+    }
+}
+
 @media screen 
     and (min-device-width: 1200px)
     and (max-device-width: 1600px) {
@@ -160,6 +224,14 @@ section {
 
     .webp .hero-background {
 	    background-image: url(/quantum-cleaning-assets/img/hero/webp/hero-full-image-x2.webp);
+    }
+
+    .no-webp .hero-banner {
+        background-image: url(/quantum-cleaning-assets/img/hero-banner/hero-banner-image-x2.jpg);
+    }
+
+    .webp .hero-banner {
+        background-image: url(/quantum-cleaning-assets/img/hero-banner/webp/hero-banner-image-x2.webp);
     }
 }
 
@@ -171,6 +243,14 @@ section {
     
     .webp .hero-background {
         background-image: url(/quantum-cleaning-assets/img/hero/webp/hero-full-image-x3.webp);
+    }
+
+    .no-webp .hero-banner {
+        background-image: url(/quantum-cleaning-assets/img/hero-banner/hero-banner-image-x3.jpg);
+    }
+
+    .webp .hero-banner {
+        background-image: url(/quantum-cleaning-assets/img/hero-banner/webp/hero-banner-image-x3.webp);
     }
 }
 
