@@ -137,16 +137,52 @@ section {
     white-space: nowrap;
 }
 
-.webp .hero-background {
+/* .webp .hero-background {
     background-image: url('../quantum-cleaning-assets/img/hero/webp/hero-full-image-x3-min.webp');
 }
 
 .no-webp .hero-background {
     background-image: url('../quantum-cleaning-assets/img/hero/hero-full-image-x3-min.jpg');
-}
+} */
 
 .hero-subheading {
     -webkit-text-stroke: 2px #422926; /*Brown for outlines*/
     color: #F5B519
 }
 
+/* Desktop Devices */
+@media screen 
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px) {
+    .no-webp .hero-background {
+	    background-image: url(/quantum-cleaning-assets/img/hero/hero-full-image-x2.jpeg);
+    }
+
+    .webp .hero-background {
+	    background-image: url(/quantum-cleaning-assets/img/hero/webp/hero-full-image-x2.webp);
+    }
+}
+
+@media screen
+    and (min-device-width: 1600px){
+    .no-webp .hero-background {
+        background-image: url(/quantum-cleaning-assets/img/hero/hero-full-image-x3.jpeg);
+    }
+    
+    .webp .hero-background {
+        background-image: url(/quantum-cleaning-assets/img/hero/webp/hero-full-image-x3.webp);
+    }
+}
+
+/* @media screen 
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ration: 1) {
+    .no-webp .hero-background {
+	    background-image: url(/quantum-cleaning-assets/img/hero/hero-full-image-x1.jpeg);
+    }
+
+    .webp .hero-background {
+	    background-image: url(/quantum-cleaning-assets/img/hero/webp/hero-full-image-x1.webp);
+    }
+} */
