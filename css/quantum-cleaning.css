@@ -11,11 +11,13 @@ p {
 p, h3, h4, h5, h6{
     font-family: 'Glacial Indifference' !important;
     font-weight: normal !important;
+    color: #422926;
 }
 
 h1, h2 {
     font-family: 'Glacial Indifference' !important;
     font-weight: bold !important;
+    color: #422926;
 }
 
 body {
@@ -136,11 +138,11 @@ section {
 }
 
 .webp .hero-background {
-    background-image: url('../quantum-cleaning-assets/img/hero/webp/V2.webp');
+    background-image: url('../quantum-cleaning-assets/img/hero/webp/hero-full-image-x3-min.webp');
 }
 
 .no-webp .hero-background {
-    background-image: url('../quantum-cleaning-assets/img/hero/V2.jpg');
+    background-image: url('../quantum-cleaning-assets/img/hero/hero-full-image-x3-min.jpg');
 }
 
 .hero-subheading {
