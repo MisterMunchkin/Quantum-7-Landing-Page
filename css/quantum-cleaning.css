@@ -60,7 +60,7 @@ section {
 /* section waves https://www.shapedivider.app/ */
 .custom-shape-divider-top-1657085195 {
     position: absolute;
-    top: 0;
+    top: -10px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -81,7 +81,7 @@ section {
 /* multicolumn section */
 .custom-shape-divider-top-1657085669 {
     position: absolute;
-    top: 0;
+    top: -10px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -103,7 +103,7 @@ section {
 /* Price section */
 .custom-shape-divider-top-1657085822 {
     position: absolute;
-    top: 0;
+    top: -10px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -120,6 +120,7 @@ section {
 .custom-shape-divider-top-1657085822 .shape-fill {
     fill: #F29FC4;
 }
+
 .scriptorama-font {
     font-family: 'Scriptorama Tradeshow JF';
     font-weight: normal;
