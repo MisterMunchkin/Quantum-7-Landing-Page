@@ -253,16 +253,3 @@ section {
         background-image: url(/quantum-cleaning-assets/img/hero-banner/webp/hero-banner-image-x3.webp);
     }
 }
-
-/* @media screen 
-    and (min-device-width: 1200px)
-    and (max-device-width: 1600px)
-    and (-webkit-min-device-pixel-ration: 1) {
-    .no-webp .hero-background {
-	    background-image: url(/quantum-cleaning-assets/img/hero/hero-full-image-x1.jpeg);
-    }
-
-    .webp .hero-background {
-	    background-image: url(/quantum-cleaning-assets/img/hero/webp/hero-full-image-x1.webp);
-    }
-} */

@@ -45,13 +45,13 @@ button {
 }
 
 .cta-brown {
-    background: #422926;
-    color: #F29FC4;
+    background: #F5B519;
+    color: #422926;
 }
 
 .cta-brown:hover {
-    background: #F29FC4;
-    color: #422926;
+    background: #026A89;
+    color: #F29FC4;
 }
 
 .cta-blue {
@@ -93,10 +93,6 @@ button {
 .feature img {
     width: 100%;
     max-width: 480px;
-}
-
-#feature-first {
-    /* background: linear-gradient(168deg, #ececdd 55%, #F29FC4 0); */
 }
 
 #feature-last {
@@ -148,12 +144,12 @@ button {
     width: 40px;
     height: 40px;
     border-radius: 99%;
-    background: #422926;
+    background: #F5B519;
     transition: .4s ease;
 }
 
 #copyright #social-media a i {
-    color: #F29FC4;
+    color: #422926;
     font-size: 1.2rem;
     line-height: 40px;
 }
@@ -163,7 +159,7 @@ button {
 }
 
 #copyright #social-media a:hover i {
-    color: #422926;
+    color: #026A89;
 }
 
 /********** RWD **********/
