@@ -177,6 +177,12 @@ section {
     padding: 40px;
 }
 
+.multicolumn-icon-sparkles {
+    height: 25vh;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
 .no-wrap {
     white-space: nowrap;
 }
