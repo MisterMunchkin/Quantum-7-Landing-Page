@@ -66,6 +66,8 @@ button {
 
 #banner {
     background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 
 /********** banner **********/
@@ -84,11 +86,11 @@ button {
 }
 
 #feature-first {
-    background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
+    /* background: linear-gradient(168deg, #ececdd 55%, #F29FC4 0); */
 }
 
 #feature-last {
-    background: #00FFAD;
+    background: #F29FC4;
 }
 
 /********** price table **********/

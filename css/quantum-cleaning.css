@@ -4,6 +4,10 @@
     height: 47vh;
 }
 
+p {
+    font-size: 1.2rem !important;
+}
+
 p, h3, h4, h5, h6{
     font-family: 'Glacial Indifference' !important;
     font-weight: normal !important;
@@ -14,6 +18,108 @@ h1, h2 {
     font-weight: bold !important;
 }
 
+body {
+    background-color: #ececdd !important; /*Background color for hero image*/
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+}
+
+.dark-blue {
+    background-color: #026A89;
+}
+
+.light-blue {
+    background-color: #00A0BD;
+}
+
+.dark-green {
+    background-color: #416841;
+}
+
+.yellow {
+    background-color: #F5B519;
+}
+
+.dark-pink {
+    background-color: #AD6A7C;
+}
+
+.light-pink {
+    background-color: #F29FC4;
+}
+
+.background-color {
+    background-color: #ececdd !important;
+}
+
+/* section waves https://www.shapedivider.app/ */
+.custom-shape-divider-top-1657085195 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1657085195 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 123px;
+}
+
+.custom-shape-divider-top-1657085195 .shape-fill {
+    fill: #026A89;
+}
+
+/* multicolumn section */
+.custom-shape-divider-top-1657085669 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1657085669 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 123px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1657085669 .shape-fill {
+    fill: #ECECDD;
+}
+
+/* Price section */
+.custom-shape-divider-top-1657085822 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1657085822 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 119px;
+}
+
+.custom-shape-divider-top-1657085822 .shape-fill {
+    fill: #F29FC4;
+}
 .scriptorama-font {
     font-family: 'Scriptorama Tradeshow JF';
     font-weight: normal;
@@ -27,3 +133,17 @@ h1, h2 {
 .no-wrap {
     white-space: nowrap;
 }
+
+.webp .hero-background {
+    background-image: url('../quantum-cleaning-assets/img/hero/webp/V2.webp');
+}
+
+.no-webp .hero-background {
+    background-image: url('../quantum-cleaning-assets/img/hero/V2.jpg');
+}
+
+.hero-subheading {
+    -webkit-text-stroke: 2px #422926; /*Brown for outlines*/
+    color: #F5B519
+}
+
