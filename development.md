@@ -10,3 +10,6 @@ python3 -m http.server
 Then go to *localhost:8000* in your web browser of choice.
 
 That's it!
+
+using tailwindcss
+`npx tailwindcss -i ./css/quantum-cleaning.css -o ./css/tailwind-output.css` generates the css utilities
