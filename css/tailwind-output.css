@@ -634,10 +634,6 @@ video {
   height: 16rem;
 }
 
-.h-60 {
-  height: 15rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -958,7 +954,17 @@ section {
 }
 
 @media (min-width: 768px) {
+  .md\:w-4\/6 {
+    width: 66.666667%;
+  }
+
   .md\:shrink-0 {
     flex-shrink: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-2\/4 {
+    width: 50%;
   }
 }

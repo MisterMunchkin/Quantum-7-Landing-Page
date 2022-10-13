@@ -13,3 +13,5 @@ That's it!
 
 using tailwindcss
 `npx tailwindcss -i ./css/quantum-cleaning.css -o ./css/tailwind-output.css` generates the css utilities
+
+Use Flickity instead for showing review carousel: https://flickity.metafizzy.co/

@@ -24,7 +24,9 @@
     <link rel="stylesheet" href="css/tailwind-output.css" fetchpriority="high">
     <link rel="stylesheet" href="css/carousel.css" fetchpriority="low">
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-233727057-1">
     </script>
@@ -153,99 +155,65 @@
         <!-- price table -->
         <div class="container my-5 py-2" id="price-table">
             <h2 class="text-center font-weight-bold d-block mb-3">Still not sold? Take a look at what our mothers<br> have to say <span class="no-wrap">👁👄👁</span></h2>
-            <div class="carousel-body">
-                <div class="carousel-container">
-                    <input class="hidden" type="radio" name="slider" id="item-1" checked>
-                    <input class="hidden" type="radio" name="slider" id="item-2">
-                    <input class="hidden" type="radio" name="slider" id="item-3">
-                    <input class="hidden" type="radio" name="slider" id="item-4">
-                    <input class="hidden" type="radio" name="slider" id="item-5">
-                    <div class="cards">
-                        <label class="card rounded-lg" for="item-1" id="song-1">
-                            <div class="md:shrink-0">
-                                <img class="object-cover rounded-t-lg w-full h-64 mx-auto" src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
-                            </div>
-                            <div class="p-8">
-                                <h4 class="text-center text-3xl">Jenny Surima</h4>
-                                <p class="mt-3 text-center tracking-wide">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at cursus magna, faucibus tincidunt dolor.
-                                </p>
-                            </div>
-                        </label>
-                        <label class="card rounded-lg" for="item-2" id="song-2">
-                            <div class="md:shrink-0">
-                                <img class="object-cover rounded-t-lg w-full h-64 mx-auto" src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
-                            </div>
-                            <div class="p-8">
-                                <h4 class="text-center text-3xl">Lorem ipsum</h4>
-                                <p class="mt-3 text-center tracking-wide">
-                                    Lorem ipsum
-                                </p>
-                            </div>
-                        </label>
-                        <label class="card rounded-lg" for="item-3" id="song-3">
-                            <div class="md:shrink-0">
-                                <img class="object-cover rounded-t-lg w-full h-64 mx-auto" src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
-                            </div>
-                            <div class="p-8">
-                                <h4 class="text-center text-3xl">Lorem ipsum</h4>
-                                <p class="mt-3 text-center tracking-wide">
-                                    Lorem ipsum
-                                </p>
-                            </div>
-                        </label>
-                        <label class="card rounded-lg" for="item-4" id="song-4">
-                            <div class="md:shrink-0">
-                                <img class="object-cover rounded-t-lg w-full h-64 mx-auto" src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
-                            </div>
-                            <div class="p-8">
-                                <h4 class="text-center text-3xl">Lorem ipsum</h4>
-                                <p class="mt-3 text-center tracking-wide">
-                                    Lorem ipsum
-                                </p>
-                            </div>
-                        </label>
-                        <label class="card rounded-lg" for="item-5" id="song-5">
-                            <div class="md:shrink-0">
-                                <img class="object-cover rounded-t-lg w-full h-64 mx-auto" src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
-                            </div>
-                            <div class="p-8">
-                                <h4 class="text-center text-3xl">Lorem ipsum</h4>
-                                <p class="mt-3 text-center tracking-wide">
-                                    Lorem ipsum
-                                </p>
-                            </div>
-                        </label>
+            <div class="cards">
+                <div class="card rounded-lg">
+                    <div class="md:shrink-0">
+                        <img class="object-cover rounded-t-lg w-full h-64 mx-auto" src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
+                    </div>
+                    <div class="p-8">
+                        <h4 class="text-center text-3xl">Jenny Surima</h4>
+                        <p class="mt-3 text-center tracking-wide">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at cursus magna, faucibus tincidunt dolor.
+                        </p>
+                    </div>
+                </div>
+                <div class="card rounded-lg">
+                    <div class="md:shrink-0">
+                        <img class="object-cover rounded-t-lg w-full h-64 mx-auto" src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+                    </div>
+                    <div class="p-8">
+                        <h4 class="text-center text-3xl">Lorem ipsum</h4>
+                        <p class="mt-3 text-center tracking-wide">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+                <div class="card rounded-lg">
+                    <div class="md:shrink-0">
+                        <img class="object-cover rounded-t-lg w-full h-64 mx-auto" src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+                    </div>
+                    <div class="p-8">
+                        <h4 class="text-center text-3xl">Lorem ipsum</h4>
+                        <p class="mt-3 text-center tracking-wide">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+                <div class="card rounded-lg">
+                    <div class="md:shrink-0">
+                        <img class="object-cover rounded-t-lg w-full h-64 mx-auto" src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+                    </div>
+                    <div class="p-8">
+                        <h4 class="text-center text-3xl">Lorem ipsum</h4>
+                        <p class="mt-3 text-center tracking-wide">
+                            Lorem ipsum
+                        </p>
+                    </div>
+                </div>
+                <div class="card rounded-lg">
+                    <div class="md:shrink-0">
+                        <img class="object-cover rounded-t-lg w-full h-64 mx-auto" src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+                    </div>
+                    <div class="p-8">
+                        <h4 class="text-center text-3xl">Lorem ipsum</h4>
+                        <p class="mt-3 text-center tracking-wide">
+                            Lorem ipsum
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- client -->
-    <!-- <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-md-2 py-2 align-self-center">
-                    <img src="img/client-1.png" class="mx-auto d-block">
-                </div>
-                <div class="col-sm-4 col-md-2 py-2 align-self-center">
-                    <img src="img/client-2.png" class="mx-auto d-block">
-                </div>
-                <div class="col-sm-4 col-md-2 py-2 align-self-center">
-                    <img src="img/client-3.png" class="mx-auto d-block">
-                </div>
-                <div class="col-sm-4 col-md-2 py-2 align-self-center">
-                    <img src="img/client-4.png" class="mx-auto d-block">
-                </div>
-                <div class="col-sm-4 col-md-2 py-2 align-self-center">
-                    <img src="img/client-5.png" class="mx-auto d-block">
-                </div>
-                <div class="col-sm-4 col-md-2 py-2 align-self-center">
-                    <img src="img/client-6.png" class="mx-auto d-block">
-                </div>
-            </div>
-        </div>
-    </div> -->
     <!-- contact -->
     <section id="contact-us">
         <div class="custom-shape-divider-top-1657101104">
@@ -368,7 +336,8 @@
     <script src="js/modernizr-webp.js" async></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
     <script type="text/javascript" src="./js/custom.js"></script>
 </body>
 
