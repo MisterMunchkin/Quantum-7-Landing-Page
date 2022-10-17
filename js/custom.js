@@ -15,8 +15,11 @@ $(function(){
         wrapAround: true
     });
 
-    // vanilla JS
-    // flkty.on( 'change', function( index ) {
+    var response = grecaptcha.getResponse('contact-us-recaptcha');
 
-    // });
+    if (response.length == 0) {
+        alert('captcha invalid');
+    } else {
+        alert('captcha valid');
+    }
 });

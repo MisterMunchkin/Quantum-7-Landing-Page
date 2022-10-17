@@ -37,6 +37,8 @@
 
         gtag('config', 'UA-233727057-1');
     </script>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -255,7 +257,8 @@
                                 <label for="message">Message</label>
                                 <textarea class="form-control" id="message" rows="3" name="message" required></textarea>
                             </div>
-                            <div data-netlify-recaptcha="true"></div>
+                            <!-- <div data-netlify-recaptcha="true"></div> -->
+                            <div id="contact-us-recaptcha" class="g-recaptcha" data-sitekey="6LcqGokiAAAAAEQyjo3DxDjathmSQz4ZdEcvycUv"></div>
                             <button type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-brown my-3 yellow">Submit</button>
                         </form>
                     </div>
