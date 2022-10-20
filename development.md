@@ -15,3 +15,15 @@ using tailwindcss
 `npx tailwindcss -i ./css/quantum-cleaning.css -o ./css/tailwind-output.css` generates the css utilities
 
 Use Flickity instead for showing review carousel: https://flickity.metafizzy.co/
+
+### For Minifying JS and CSS in terminal
+
+Using grunt, grunt-contrib-cssmin for css min and uglify for js min.
+
+to generate min one time:
+
+`grunt`
+
+to watch changes with grunt:
+
+`grunt watch --force`

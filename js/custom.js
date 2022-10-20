@@ -15,11 +15,13 @@ $(function(){
         wrapAround: true
     });
 
-    var response = grecaptcha.getResponse('contact-us-recaptcha');
+    var onloadCallback = function () {
+        var response = grecaptcha.getResponse('contact-us-recaptcha');
 
-    if (response.length == 0) {
-        alert('captcha invalid');
-    } else {
-        alert('captcha valid');
+        if (response.length == 0) {
+            alert('captcha invalid');
+        } else {
+            alert('captcha valid');
+        }
     }
 });
