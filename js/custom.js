@@ -12,4 +12,6 @@ $(function(){
         const submitButton = document.getElementById("contact-us-submit-btn");
         submitButton.removeAttribute("disabled");
     }
+
+    window.recaptchaCallback = recaptchaCallback;
 });
