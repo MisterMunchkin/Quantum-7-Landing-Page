@@ -258,8 +258,14 @@
                                 <textarea class="form-control" id="message" rows="3" name="message" required></textarea>
                             </div>
                             <!-- <div data-netlify-recaptcha="true"></div> -->
-                            <div id="contact-us-recaptcha" class="g-recaptcha" data-sitekey="6LcqGokiAAAAAEQyjo3DxDjathmSQz4ZdEcvycUv"></div>
-                            <button id="contactUsSubmitBtn" type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-brown my-3 yellow" disabled>Submit</button>
+                            <div 
+                                id="contact-us-recaptcha" 
+                                class="g-recaptcha" 
+                                data-sitekey="6LcqGokiAAAAAEQyjo3DxDjathmSQz4ZdEcvycUv"
+                                data-callback="recaptchaCallback"
+                            >
+                            </div>
+                            <button id="contact-us-submit-btn" type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-brown my-3 yellow" disabled>Submit</button>
                         </form>
                     </div>
                 </div>
