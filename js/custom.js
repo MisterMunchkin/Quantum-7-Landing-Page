@@ -15,13 +15,19 @@ $(function(){
         wrapAround: true
     });
 
-    var onloadCallback = function () {
-        var response = grecaptcha.getResponse('contact-us-recaptcha');
-
-        if (response.length == 0) {
-            alert('captcha invalid');
-        } else {
-            alert('captcha valid');
+    function enableFormSubmitButton() {
+        const response = grecaptcha.getResponse()
+        if (response.length !== 0) {
+            // `submitBtn` is the id I gave the form submit button
+            document.getElementById('contactUsSubmitBtn').disabled = false
         }
     }
+    
+    document.addEventListener("DOMContentLoaded", () => {
+        if (typeof grecaptcha === "object") {
+          document.querySelector('.g-recaptcha').dataset.callback = "enableFormSubmitButton";
+        } else {
+          console.log("Unable to add `data-callback` to grecaptcha as it doesn't exist.");
+        }
+    });
 });
