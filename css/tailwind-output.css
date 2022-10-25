@@ -900,6 +900,47 @@ section {
   color: #F5B519
 }
 
+/* Mobile Screen */
+
+@media screen
+    and (max-device-width: 768px) {
+  .custom-shape-divider-top-1657085195 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 60px;
+  }
+
+  .custom-shape-divider-top-1657085669 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 60px;
+    transform: rotateY(180deg);
+  }
+
+  .custom-shape-divider-top-1657085822 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 60px;
+  }
+
+  .custom-shape-divider-top-1657101104 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 60px;
+  }
+
+  .custom-shape-divider-bottom-1657101488 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 31px;
+  }
+}
+
 /* Desktop Devices */
 
 @media screen
